@@ -472,7 +472,7 @@ final class BlockImpl implements Block {
     
     @Override
     public long getBlockReward() {
-    	if(this.height == 0 || this.height >= 3888000) {
+    	if(this.height == 0 || this.height >= 5832000) {
     		return 0;
     	}
     	int month = this.height / 32400;
