@@ -592,7 +592,7 @@ var NRS = (function(NRS, $, undefined) {
 		if (typeof timestamp == "object") {
 			var date = timestamp;
 		} else {
-			var date = new Date(Date.UTC(2018, 11, 4, 1, 0, 0, 0) + timestamp * 1000);
+			var date = new Date(Date.UTC(2018, 11, 5, 0, 0, 0, 0) + timestamp * 1000);
 		}
 
 		if (!isNaN(date) && typeof(date.getFullYear) == 'function') {
