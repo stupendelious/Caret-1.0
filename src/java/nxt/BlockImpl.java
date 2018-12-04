@@ -476,7 +476,7 @@ final class BlockImpl implements Block {
     		return 0;
     	}
     	int month = this.height / 32400;
-    	long reward = BigInteger.valueOf(10000)
+    	long reward = BigInteger.valueOf(1000)
     			.multiply(BigInteger.valueOf(95).pow(month))
     			.divide(BigInteger.valueOf(100).pow(month)).longValue() * Constants.ONE_NXT;
     	
