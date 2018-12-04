@@ -4,11 +4,11 @@ import java.math.BigInteger;
 
 public final class Genesis {
 
-    public static final long GENESIS_BLOCK_ID = 3444294670862540038L;
+    public static final long GENESIS_BLOCK_ID = 16222496664465768411L;
     public static final long CREATOR_ID = 0L;
     public static final byte[] CREATOR_PUBLIC_KEY = {
-    	0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-    	0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+    	12, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 18, 0,
+    	10, 0, 0, 0, 0, 0, 21, 0, 24, 0, 0, 0, 0, 0, 0, 0
     };
 
     public static final long[] GENESIS_RECIPIENTS = {};
