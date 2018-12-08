@@ -6,9 +6,9 @@ import java.util.TimeZone;
 
 public final class Constants {
 
-	public static int CARET_DIFF_ADJUST_CHANGE_BLOCK = 999;
+	public static int CARET_DIFF_ADJUST_CHANGE_BLOCK = 1015;
 	
-	public static long CARET_REWARD_RECIPIENT_ASSIGNMENT_START_BLOCK = 1010;
+	public static long CARET_REWARD_RECIPIENT_ASSIGNMENT_START_BLOCK = 1015;
     public static long CARET_REWARD_RECIPIENT_ASSIGNMENT_WAIT_TIME = 4;
     
     public static long CARET_ESCROW_START_BLOCK = Integer.MAX_VALUE;
@@ -81,15 +81,15 @@ public final class Constants {
     public static final int REFERENCED_TRANSACTION_FULL_HASH_BLOCK = 0;
     public static final int REFERENCED_TRANSACTION_FULL_HASH_BLOCK_TIMESTAMP = 0;
     public static final int VOTING_SYSTEM_BLOCK = isTestnet ? 0 : Integer.MAX_VALUE;
-    public static final int DIGITAL_GOODS_STORE_BLOCK = 1005;
+    public static final int DIGITAL_GOODS_STORE_BLOCK = 1015;
     public static final int PUBLIC_KEY_ANNOUNCEMENT_BLOCK = Integer.MAX_VALUE;
 
     public static final int MAX_AUTOMATED_TRANSACTION_NAME_LENGTH = 30;
 	public static final int MAX_AUTOMATED_TRANSACTION_DESCRIPTION_LENGTH = 1000 ;
-	protected static final int AUTOMATED_TRANSACTION_BLOCK = 1005;
+	protected static final int AUTOMATED_TRANSACTION_BLOCK = 1015;
 	public static final int AT_BLOCK_PAYLOAD = MAX_PAYLOAD_LENGTH/2;
-	public static final int AT_FIX_BLOCK_2 = 1001;
-	public static final int AT_FIX_BLOCK_3 = 1002;
+	public static final int AT_FIX_BLOCK_2 = 1015;
+	public static final int AT_FIX_BLOCK_3 = 1015;
     
     static final long UNCONFIRMED_POOL_DEPOSIT_NQT = (isTestnet ? 50 : 100) * ONE_NXT;
 
@@ -113,7 +113,7 @@ public final class Constants {
                                                         is set as number of seconds before the current time. */
 
     public static final int EC_BLOCK_DISTANCE_LIMIT = 60;
-    public static final int EC_CHANGE_BLOCK_1 = 1001;
+    public static final int EC_CHANGE_BLOCK_1 = 1015;
 	
 
     private Constants() {} // never
